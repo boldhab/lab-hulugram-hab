@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- OTP Boxes -->
+    <style name="OtpBox">
+        <item name="android:layout_width">22dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_margin">7dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Keypad Buttons -->
+
+    <style name="KeypadKey">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">#EEEEEE</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+</resources>

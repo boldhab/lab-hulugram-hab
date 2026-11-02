@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application -->
+    <string name="app_name">Hulugram Messenger</string>
+    <string name="app_logo_description">Hulugram Messenger Logo</string>
+    <string name="app_tagline">The world\'s fastest messaging app.\nIt is free and secure.</string>
+
+    <!-- Welcome Screen -->
+    <string name="choose_language">Choose your language</string>
+    <string name="start_messaging">Start Messaging</string>
+
+    <!-- Verification Screen -->
+    <string name="back">‹</string>
+    <string name="illustration">▣  ▰</string>
+    <string name="screen_title">Check your Hulugram messages</string>
+
+    <string name="verification_message">We\'ve sent the code to hulugram app for\n+251944531190 on your other device</string>
+
+    <string name="open_telegram">➤   Open Telegram</string>
+    <string name="didnt_get_code">Didn\'t get the code?</string>
+
+    <!-- Keypad -->
+    <string name="key_1">1</string>
+    <string name="key_2">2   ABC</string>
+    <string name="key_3">3   DEF</string>
+    <string name="key_4">4   GHI</string>
+    <string name="key_5">5   JKL</string>
+    <string name="key_6">6   MNO</string>
+    <string name="key_7">7   PQRS</string>
+    <string name="key_8">8   TUV</string>
+    <string name="key_9">9   WXYZ</string>
+    <string name="key_0">0   +</string>
+    <string name="key_delete">⌫</string>
+
+</resources>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <!-- Back Arrow -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/back"
+            android:textSize="32sp"
+            android:textColor="#555555"
+            android:gravity="center_vertical" />
+
+        <!-- Illustration -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="@string/illustration"
+            android:textSize="48sp"
+            android:gravity="center"
+            android:textColor="#111111" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/screen_title"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:gravity="center" />
+
+        <!-- Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/verification_message"
+            android:textSize="12sp"
+            android:textColor="#888888"
+            android:gravity="center"
+            android:lineSpacingExtra="3dp" />
+
+        <!-- Open Telegram Button -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/green_button"
+            android:text="@string/open_telegram"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- OTP Boxes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="55dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/OtpBox"
+                android:background="@drawable/otp_selected"/>
+
+            <TextView
+                style="@style/OtpBox"
+                android:background="@drawable/otp_normal"/>
+
+            <TextView
+                style="@style/OtpBox"
+                android:background="@drawable/otp_normal"/>
+
+            <TextView
+                style="@style/OtpBox"
+                android:background="@drawable/otp_normal"/>
+
+            <TextView
+                style="@style/OtpBox"
+                android:background="@drawable/otp_normal"/>
+
+        </LinearLayout>
+
+        <!-- Didn't Get Code -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:text="@string/didnt_get_code"
+            android:textColor="#35C66A"
+            android:textSize="11sp"
+            android:gravity="center"/>
+
+        <!-- Flexible Space -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+        <!-- Numeric Keypad -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Row 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/KeypadKey"
+                    android:text="@string/key_1"/>
+
+                <TextView
+                    style="@style/KeypadKey"
+                    android:text="@string/key_2"/>
+
+                <TextView
+                    style="@style/KeypadKey"
+                    android:text="@string/key_3"/>
+            </LinearLayout>
+
+            <!-- Row 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/KeypadKey"
+                    android:text="@string/key_4"/>
+
+                <TextView
+                    style="@style/KeypadKey"
+                    android:text="@string/key_5"/>
+
+                <TextView
+                    style="@style/KeypadKey"
+                    android:text="@string/key_6"/>
+            </LinearLayout>
+
+            <!-- Row 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/KeypadKey"
+                    android:text="@string/key_7"/>
+
+                <TextView
+                    style="@style/KeypadKey"
+                    android:text="@string/key_8"/>
+
+                <TextView
+                    style="@style/KeypadKey"
+                    android:text="@string/key_9"/>
+            </LinearLayout>
+
+            <!-- Row 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    style="@style/KeypadKey"
+                    android:text="@string/key_0"/>
+
+                <TextView
+                    style="@style/KeypadKey"
+                    android:text="@string/key_delete"
+                    android:textSize="25sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
